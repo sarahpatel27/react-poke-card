@@ -1,0 +1,15 @@
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.load{
+    position: absolute;
+    margin-top: 40px;
+    float: left;
+}
+
+*{
+    background-color: rgb(241, 225, 227);
+}

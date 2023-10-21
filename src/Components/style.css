@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.card{
+    margin: auto; 
+    padding : 20px;
+    margin-left: 30px;
+    /* background: #aed3d3; */
+    background-image: url('https://wallpaperaccess.com/full/2019215.jpg');
+    
+} 
+
+.container{
+    width: 90%;
+    margin: 20px;
+    padding-top: 30px; 
+    display: flex;
+}
+.heading {
+    align-items: center;
+
+}
+.left-container, .right-container{
+    flex-basis: 50%;
+}
+
+.left-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 2rem;
+}
+
+.btns{
+    display: flex;
+}
+
+.btns button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(58, 180, 107);
+    border-radius: 8px ;
+
+
+}
+.right-container{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    right: 15px;
+    
+}
+
+.right-container img{
+    margin: 2rem;
+    height: 180px;
+}
+
+.right-container h1{
+    text-transform: uppercase;
+    font-weight: bold ;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.ability{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.ability .group{
+    background-color:rgb(19, 20, 20);
+    color: white;
+    padding: 0.4rem;
+    justify-content: space-around;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.base-stats{
+    margin-top: 2rem;
+    color: white;
+    text-transform: capitalize;
+   
+}
+
+.pokemon-mini{
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(144, 194, 134);
+    box-shadow: 0 5px 5px rgba(175, 171, 171, 0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 15px;
+}
